@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
+<<<<<<< HEAD
     "build": "vite build ",
+=======
+    "build": "vite build && cp index.html dist\\client\\index.html",
+>>>>>>> cb6cc45e19c961cf2f55c31b0f3f07d74a9dc11a
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
