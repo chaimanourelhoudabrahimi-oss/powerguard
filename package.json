@@ -3,18 +3,14 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "scripts": {
-    "dev": "vite dev",
-<<<<<<< HEAD
-    "build": "vite build ",
-=======
-    "build": "vite build && cp index.html dist\\client\\index.html",
->>>>>>> cb6cc45e19c961cf2f55c31b0f3f07d74a9dc11a
-    "build:dev": "vite build --mode development",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write ."
-  },
+ "scripts": {
+  "dev": "vite dev",
+  "build": "vite build",
+  "build:dev": "vite build --mode development",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "format": "prettier --write ."
+},
   "dependencies": {
     "@capacitor/android": "^8.3.4",
     "@capacitor/cli": "^8.3.4",
